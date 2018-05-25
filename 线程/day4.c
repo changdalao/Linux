@@ -19,6 +19,6 @@ int main()
     {
         pthread_join(tid,&str);
         printf("%s\n",(char*)str);
-    }
+    } 
     return 0;
 }

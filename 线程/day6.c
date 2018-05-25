@@ -10,7 +10,7 @@ void *thread1( void *arg  )
     int *p = (int*)malloc(sizeof(int));
     *p = 1;
     return (void*)p;//return 退出线程
-
+ 
 }
 void *thread2( void *arg  )
 {

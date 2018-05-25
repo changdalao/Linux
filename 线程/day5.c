@@ -10,7 +10,7 @@ void *run1()
 {
     printf("thread 1 running\n");
     return ((void*)1);//return退出线程
-}
+} 
 void *run2()
 {
     printf("thread 2 running\n");

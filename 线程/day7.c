@@ -1,6 +1,5 @@
 /*
  *设置分离属性
- *
 */
 #include<stdio.h>
 #include<string.h>

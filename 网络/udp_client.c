@@ -28,9 +28,7 @@ int main(int argc,char* argv[])
     server.sin_family=AF_INET;//地址类型
     server.sin_port=htons(atoi(argv[2]));//端口号
     server.sin_addr.s_addr=inet_addr(argv[1]);//IP地址转为整数+变为网络序列
-
     //客户端不需要绑定，服务器端必须绑定
-
     char buf[128];
     while(1){//先发送，后接收
         printf("please enter:");

@@ -19,7 +19,7 @@ int main(int argc,char* argv[])
         perror("socket");
         return 2;
     }
-    
+      
     struct sockaddr_in local;
     local.sin_family=AF_INET;//地址类型
     local.sin_port=htons(atoi(argv[2]));//端口号

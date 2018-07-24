@@ -17,7 +17,7 @@ union semun {
 
 int main( void )
 {
-	// 1. 读取文件
+	// 读取文件
 	int fd;
 again:
 	fd = open("./tmp", O_RDONLY);
